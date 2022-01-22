@@ -1,0 +1,28 @@
+{
+
+    "author": null,
+    "download": null,
+    "format": "mp3",
+    "id": "6d9f3ec5-4e1f-4323-a64d-93bcd98fbfd5",
+    "metadata": null,
+    "registered_at": 1557904749,
+    "status": "ERROR WHILE DOWNLOADING RAW FILE",
+    "thumbnail": null,
+    "title": null,
+    "url": "https://www.youtube.com/bonjourlesamis"
+
+}
+{
+
+    "author": "childtopia",
+    "download": "gs://bilygine-audio/fr/TzO0hWJn-Ac.mp3.raw",
+    "format": "mp3",
+    "id": "f09bda7b-f0d3-47dc-b57b-b667b82fc94d",
+    "metadata": null,
+    "registered_at": 1557904846,
+    "status": "DOWNLOADED",
+    "thumbnail": "https://i.ytimg.com/vi/TzO0hWJn-Ac/maxresdefault.jpg",
+    "title": "Le petit Chaperon Rouge, des classiques histoires courtes en français. Childtopia contes",
+    "url": "https://www.youtube.com/watch?v=TzO0hWJn-Ac"
+
+} 

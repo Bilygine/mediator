@@ -1,0 +1,20 @@
+version: '3'
+services:
+    source:
+        image: downloader:latest
+        build: .
+        ports:
+            - "5000:5000"
+        volumes:
+            - .:/code    
+        environment:
+            - GOOGLE_APPLICATION_CREDENTIALS=/code/credentials/bilygine_google_credentials.json
+            - BUCKET_NAME=bilygine-audio
+    db:
+        image: rethinkdb
+        ports:
+            - "8080:8080"
+            - "29015"
+            - "28015"
+        volumes:
+            - ./rethinkdb:/data
